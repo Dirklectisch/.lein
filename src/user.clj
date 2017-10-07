@@ -24,5 +24,4 @@
     lein])
   
 (def classpaths
-  (seq (.getURLs (java.lang.ClassLoader/getSystemClassLoader))))
-  
+  (seq (.getURLs (ClassLoader/getSystemClassLoader))))
